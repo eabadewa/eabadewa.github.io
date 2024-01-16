@@ -452,6 +452,12 @@ main h3 {
 
 .contact {
   text-decoration: none;
+  color: #84a98c;
+}
+
+.contact:hover,
+.contact:focus {
+  color: #354f52;
 }
 
 main h4 {
@@ -466,47 +472,6 @@ main h4 {
   padding: 10px 0 10px 0;
 }
 
-.pub-list {
-  list-style: square;
-  text-align: left;
-
-  /* margin: 0 1.5em 0 -1.5em;
-  list-style-position: inside;
-  border-collapse: collapse;
-  padding-bottom: 10px;
-  display: table;
-  border-collapse: collapse;
-  width: 100%; */
-}
-
-
-/* .pub-list li::before {
-  content: "•";
-  font-size: 130%;
-  line-height: 0;
-  margin: 0 1.5em 0 -1.5em;
-  position: relative;
-  top: 0.08rem;
-  color: #84a98c;
-} */
-
-
-.pub-list li {
-
-
-  /* display: table-row; */
-}
-
-
-.pub-list li span {
-  display: table-cell;
-  vertical-align: middle;
-  font-size: 13px;
-
-
-  padding: 5px 0 7px 0;
-}
-
 
 main {
   font-family: Poppins, "san-sarif";
@@ -516,4 +481,38 @@ main {
 
 .news-body {
   padding-top: 20px;
+}
+
+
+.pres-list,
+.news-list,
+.pub-list {
+  list-style: square;
+  text-align: left;
+}
+
+.pres-list li span,
+.news-list li span,
+.pub-list li span {
+  /* display: table-cell; */
+  vertical-align: middle;
+  font-size: 13px;
+
+
+  padding: 5px 0 7px 0;
+}
+
+.here {
+  text-decoration: none;
+  color: #84a98c;
+}
+
+.here:hover,
+.here:focus {
+  color: #354f52;
+}
+
+.email {
+  font-size: 15px;
+  text-align: left;
 }
