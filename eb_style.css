@@ -438,6 +438,15 @@ footer {
 
 }
 
+.accordion {
+  --bs-accordion-btn-color: #2f3e46;
+  --bs-accordion-btn-bg: #cad2c5;
+  --bs-accordion-active-color: #2f3e46;
+  --bs-accordion-active-bg: #cad2c5;
+}
+
+
+
 
 
 
