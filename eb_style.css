@@ -387,6 +387,11 @@ footer {
   opacity: 0.3;
 }
 
+.desg-name a {
+  text-decoration: none;
+  color: #cad2c5;
+}
+
 .icon-footer,
 .svg-footer {
   margin-right: 10px;
@@ -412,6 +417,24 @@ footer {
   padding-bottom: 5px;
   margin-bottom: 0;
 
+
+}
+
+
+
+/* Research page */
+
+.accordion-thins {
+  display: flex;
+
+  justify-content: center;
+}
+
+.acc-title h4 {
+  display: flex;
+  justify-content: center;
+  font-weight: 600;
+  color: #2f3e46;
 
 }
 
